@@ -1,0 +1,59 @@
+
+#cuadro1{
+    background-color: rgba(197, 96, 38, 0.842);
+    border: 3px solid  #8f6041;
+    padding: 5px;
+    margin: 5%;
+    width: 37%;
+    margin: 5%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    text-align: center;
+
+}
+#cuadro2{
+    background-color: rgba(197, 96, 38, 0.842);
+    border: 3px solid  #8f6041;
+    padding: 5px;
+    margin: 5%;
+    width: 37%;
+    margin: 5%;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    text-align: center;
+}
+
+#registro{
+    text-align:center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #381f0e;
+    
+}
+#consulta{
+    text-align:center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #381f0e
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #45a049; /* Color de fondo */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center; 
+    cursor: pointer;
+    }
+    
+    
+    
+.btn:hover {   
+    background-color: #1f7423; /* Color al pasar el ratón */
+    }

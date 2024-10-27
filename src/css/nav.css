@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: #8f6041;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+nav div {
+    background-color: #8f6041;
+    height: 45px;
+}
+
+.nav-menu {
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-menu li {
+    height: 100%;
+}
+
+.nav-menu li a {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: bold;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    background-color: #5e3418;
+    cursor: pointer;
+}
