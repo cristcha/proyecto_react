@@ -4,6 +4,9 @@ function Home() {
     function view_consultar() {
         window.location = '/consultar'    
     }
+    function view_registrar() {
+        window.location = '/registrar';
+    }
     return(
         <div>
             <div id="cuadro1"> 
@@ -11,7 +14,7 @@ function Home() {
                 <div id="registro">Registrate y programa tu cita
                 </div>
                 </h2> 
-                <button className='btn'> Registrar </button>
+                <button className='btn' onClick={view_registrar}> Registrar </button>
 
             </div>
             <div id="cuadro2">

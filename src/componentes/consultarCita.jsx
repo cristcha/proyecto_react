@@ -1,6 +1,7 @@
 import '../css/consultarCita.css'
 
 function ConsultarCita() {
+    
     return(
         <div>
             <div id="datosMascota">
